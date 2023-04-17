@@ -1,0 +1,18 @@
+<!-- Footer content -->
+  <footer>
+    <div class="container home-container footer-head">
+      
+    </div>
+  </footer>
+  
+  <script type="text/javascript">
+    $(document).ready(function () {
+      let url = window.location;
+      $('ul.nav a').filter(function() {
+        return this.href == url;
+      }).parent().addClass('active');
+    });
+  </script> 
+</body>
+
+</html>  
